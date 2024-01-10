@@ -1,0 +1,24 @@
+* {
+  box-sizing: content-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 500px;
+  border: 1px solid red;
+}
+
+.grid-row {
+  border: 1px solid red;
+}
+
+.grid-col {
+  display: flex;
+  flex: 1;
+}
+
+.grid-row {
+  flex: 1;
+}
